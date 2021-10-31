@@ -1,1 +1,47 @@
-Padra Back End Application
+                                                           TRANSNEURON API TASK
+                                                                       
+HOW TO RUN THIS PROJECT:
+- git clone https://github.com/yeshi74/Transneuron-api-task.git
+- composer install or composer update
+- configure .env file for the database (used mongoDB here. db name: transneuron)
+- import the mongoDB database in your db.
+
+THAT'S IT FOR SETTING UP THE PROJECT. NOW WE CAN CALL OUR APIs AS FOLLOWS:
+1. USER REGISTER API URL: http://localhost/transneuron/api/v1/register 
+  METHOD: POST 
+  (PARAMETERS: name, email, description, location, mobile, password, password_confirmation)
+  
+2. USER LOGIN API URL: http://localhost/transneuron/api/v1/login
+  METHOD: POST
+  (AUTHENTICATION TOKEN WILL BE GENERATED)
+  (PARAMETERS: email, password)
+  
+3. GET USERS LIST API URL: http://localhost/transneuron/api/v1/jobseeker/list
+  METHOD: GET
+  (NO AUTHENTICATION REQUIRED)
+  (NO PARAMETERS REQUIRED)
+  
+4. SEARCH USER BY THEIR NAME OR LOCATION API URL: http://localhost/transneuron/api/v1/search/{NAME}OR{LOCATION}
+  METHOD: POST
+  (NO AUTHENTICATION REQUIRED)
+  (NO PARAMETERS REQUIRED)
+  
+5. GET PROFILE DETAILS API URL: http://localhost/transneuron/api/v1/profile/init  
+  METHOD: GET
+  (AUTHENTICATION REQUIRED. PROVIDE ABOVE GENERATED TOKEN INSIDE THE AUTH BEARER OPTION)
+  (NO PARAMETERS REQUIRED)
+  
+6. UPDATE PROFILE DETAILS API URL: http://localhost/transneuron/api/v1/profile/update/{ID}  
+  METHOD: POST
+  (AUTHENTICATION REQUIRED. PROVIDE ABOVE GENERATED TOKEN INSIDE THE AUTH BEARER OPTION)
+  (PARAMETERS: provide the fields whichever you want to update e.g: name, email, location, description, mobile)
+  
+7. UPDATE PROFILE IMAGE API URL: http://localhost/transneuron/api/v1/profile/upload  
+  METHOD: POST
+  (AUTHENTICATION REQUIRED. PROVIDE ABOVE GENERATED TOKEN INSIDE THE AUTH BEARER OPTION)
+  (PARAMETERS: image (to upload new profile image)
+  
+8. UPLOAD PHOTO GALLERY API URL: http://localhost/transneuron/api/v1/gallery/upload  
+  METHOD: POST
+  (AUTHENTICATION REQUIRED. PROVIDE ABOVE GENERATED TOKEN INSIDE THE AUTH BEARER OPTION)
+  (PARAMETERS: title, image)
