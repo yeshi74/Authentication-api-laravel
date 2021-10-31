@@ -41,6 +41,7 @@ THAT'S IT FOR SETTING UP THE PROJECT. NOW WE CAN CALL OUR APIs AS FOLLOWS:
   METHOD: POST
   (AUTHENTICATION REQUIRED. PROVIDE ABOVE GENERATED TOKEN INSIDE THE AUTH BEARER OPTION)
   (PARAMETERS: provide the fields whichever you want to update e.g: name, email, location, description, mobile)
+  SEE SCREENSHOT: https://user-images.githubusercontent.com/23486819/139591261-5bbc033a-7fa6-4ea1-9c88-644c42a2d887.png
   
 7. UPDATE PROFILE IMAGE API URL: http://localhost/transneuron/api/v1/profile/upload  
   METHOD: POST
