@@ -3,23 +3,27 @@
 HOW TO RUN THIS PROJECT:
 - git clone https://github.com/yeshi74/Transneuron-api-task.git
 - composer install or composer update
-- configure .env file for the database (used mongoDB here. db name: transneuron)
-- import the mongoDB database in your db.
+- configure .env file for the database (used mongoDB here)
+- php artisan key:generate
+- php artisan migrate --seed (for migrating the tables and dummy records)
 
 THAT'S IT FOR SETTING UP THE PROJECT. NOW WE CAN CALL OUR APIs AS FOLLOWS:
 1. USER REGISTER API URL: http://localhost/transneuron/api/v1/register 
   METHOD: POST 
   (PARAMETERS: name, email, description, location, mobile, password, password_confirmation)
+  SEE SCREENSHOT: https://user-images.githubusercontent.com/23486819/139590474-7402bb16-d7dc-4b4d-aa13-613e84dc175b.png
   
 2. USER LOGIN API URL: http://localhost/transneuron/api/v1/login
   METHOD: POST
   (AUTHENTICATION TOKEN WILL BE GENERATED)
   (PARAMETERS: email, password)
+  SEE SCREENSHOT: https://user-images.githubusercontent.com/23486819/139590704-8f1e2b80-faee-48ff-a2cc-b35a83c2ae75.png
   
 3. GET USERS LIST API URL: http://localhost/transneuron/api/v1/jobseeker/list
   METHOD: GET
   (NO AUTHENTICATION REQUIRED)
   (NO PARAMETERS REQUIRED)
+  SEE SCREENSHOT: https://user-images.githubusercontent.com/23486819/139590744-e4cd6960-6031-4d62-9f34-37aaa707024e.png
   
 4. SEARCH USER BY THEIR NAME OR LOCATION API URL: http://localhost/transneuron/api/v1/search/{NAME}OR{LOCATION}
   METHOD: POST
