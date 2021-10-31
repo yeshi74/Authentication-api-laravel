@@ -1,0 +1,4 @@
+[23-Aug-2020 06:29:35 UTC] PHP Fatal error:  Cannot use Illuminate\Support\Facades\Config as Config because the name is already in use in E:\Projects\itinare\app\Libs\LibGallery.php on line 8
+[24-Aug-2020 03:17:06 UTC] PHP Fatal error:  Cannot use App\Model\User as User because the name is already in use in E:\Projects\itinare\app\Http\Controllers\Api\ProfileController.php on line 12
+[24-Aug-2020 04:56:53 UTC] PHP Fatal error:  Cannot use App\Libs\LibFiles as LibFiles because the name is already in use in E:\Projects\itinare\app\Libs\LibProfile.php on line 25
+[11-Sep-2020 02:32:40 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in E:\Projects\itinare\bootstrap\cache\services.php on line 2

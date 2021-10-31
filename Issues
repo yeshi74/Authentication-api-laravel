@@ -1,0 +1,43 @@
+Gallery
+Multiple Destinations in create itin
+Search - Disclaimer on Currency
+Map View - Full Screen
+Drag & Drop for Dates
+Move to past - unpyublish
+Menu Button - Move left
+Past - Publish - Issues
+Add Exp - Wishlist
+Create itin - save - should go to view
+Search - Lazy Load
+
+My Itin - Publish - Go to view
+Edit - Move to Past - Confirm
+Delete - Confirm
+
+Past - Delete
+Chnage Upcoming to Past
+Upcoming - if days = 0, hide and show it as Today
+Day Page - Menu to show for upcoming
+Day 03 - No data - Map not showing properly
+Publish - Cancel - Back to my itin
+Publish - Question - check linked in style
+Maps in view itin - All Days/Day1/Day2...
+
+
+Publish Itin
+	Show existing cover image
+	Image name link to open the cover image
+	Choose File
+
+Profile
+	What exists -- bio. CLick on bio to edit bio. Enter to save
+	Total Helpful - Count of Likes
+	Add Views
+	Hide Points
+
+Settings
+	Password  - Popup to confirm password, reset password, otp
+	Logout - confirm and go to login page
+
+Create Day - Type of day mandatory
+Add place - geo based

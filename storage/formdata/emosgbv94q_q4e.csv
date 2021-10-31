@@ -1,0 +1,24 @@
+﻿Section,Section Header,Item,Type
+Cleaning Protocols,Parameter,Are all work and storage areas kept clean and free of debris and waste throughout the workday,YESNO
+Cleaning Protocols,Parameter,"Are exist and entrance ways kept unobstructed, clean and dry",YESNO
+Cleaning Protocols,Parameter,Do spills get cleaned up quickly and properly,YESNO
+Cleaning Protocols,Parameter,Is the  DU room  kept  clean ,YESNO
+Cleaning Protocols,Parameter,Are waste bins & sharp container  cleared when 3/4 full,YESNO
+Cleaning Protocols,Parameter,Are bathrooms clean properly  and kept dry ,YESNO
+Cleaning Protocols,Parameter,All patients care utilities are disinfected as per cleaning protocol,YESNO
+Cleaning Protocols,Parameter,Are blood and body fluids spilled linens soaked in sodium hypochlorite,YESNO
+Cleaning Protocols,Parameter,Is the unit cleaned at the defined frequency,YESNO
+Cleaning Protocols,Parameter,The dilutions of the cleaning agent used for floor is as per the recommendation,YESNO
+Cleaning Protocols,Parameter,High touch areas cleaned at the defined frequency,YESNO
+Cleaning Protocols,Parameter,Equipment cleaned at the defined frequency,YESNO
+Cleaning Protocols,Parameter,The agent used for equipment disinfection is as per recommendation,YESNO
+Cleaning Protocols,Parameter,Adequate hand washing facilities are available,YESNO
+Employee Safety,Parameter,Is equipment stored in designated areas when not in use,YESNO
+Employee Safety,Parameter,Staff wear PPE  when and where required,YESNO
+Employee Safety,Parameter,Are all chemicals labelled and stored in appropriate location,YESNO
+Employee Safety,Parameter,Staff are aware of MSDS,YESNO
+Employee Safety,Parameter,"Are all tools and equipment used for cleaning (e.g. mop, duster etc.) are labelled and kept in proper location",YESNO
+Awareness,Parameter,Staff has been trained in general housekeeping practices and SOPs,YESNO
+Awareness,Parameter,Hand washing compliance,YESNO
+Awareness,Parameter,Are all  staff aware about Bio medical waste disposal guidelines,YESNO
+Awareness,Parameter,Are all disinfectants used are diluted as per dilution protocol,YESNO

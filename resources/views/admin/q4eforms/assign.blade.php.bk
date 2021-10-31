@@ -1,0 +1,54 @@
+@extends('layouts/contentLayoutMaster')
+@section('title', 'Q4E Forms')
+@section('content')
+    {!!Helper::startPage(array("bc"=>$breadcrumbs,"typ"=>"TABLE","caption"=>""))!!}
+    <section id="column-selectors">
+        <h4>{{$results->name}}</h4>
+        <div class="row">
+            <div class="col-12">
+                <div class="table-responsive">
+                    <table class="table table-striped dataex-html5-selectors">
+                        <thead>
+                            <tr>
+                                <th>User</th>
+                                <th>Center</th>
+                                <th>Status</th>
+                                @if($results->code=="OUTCOME")
+                                    <td>Score</td>
+                                @endif
+                                <th>Assigned Date</th>
+                                <th>Completed Date</th>
+                                <th>Actual Completion Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <?php
+                                foreach($lstAssign as $row):
+                            ?>
+                                    <tr>
+                                        <td>@if($row['status'] == 20)
+                                            <a href="{{url('admin/q4eforms/assign/view/'.$row['id'])}}">{{$row['userName']}}</a>
+                                            @else
+                                                {{$row['userName']}}
+                                            @endif
+                                        </td>
+                                        <td>{{$row['locname']}}</td>
+                                        <td>{{$row['statusName']}}</td>
+                                        @if($results->code=="OUTCOME")
+                                            <td>{{$row['totalScore']}}</td>
+                                        @endif
+                                        <td>{{$row['fAssignDate']}}</td>
+                                        <td>{{$row['fCompleteDate']}}</td>
+                                        <td>{{$row['fEndDate']}}</td>
+                                    </tr>
+                            <?php
+                                endforeach
+                            ?>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    {!! Helper::closePage()!!}
+@endsection
