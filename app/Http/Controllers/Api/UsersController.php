@@ -30,6 +30,15 @@ class UsersController extends Controller
         ], 200);
     }
 
+    public function list()
+    {
+        $result = Consultations::getUsers();
+        $out['status'] = 'success';
+        $out['message'] = '';
+        $out['data'] = array('result'=>$result);
+        return response($out, 200);
+    }
+
     public function logout(Request $request)
     {
         $output['status'] = 'success';
