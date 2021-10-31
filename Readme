@@ -11,7 +11,7 @@ THAT'S IT FOR SETTING UP THE PROJECT. NOW WE CAN CALL OUR APIs AS FOLLOWS:
 1. USER REGISTER API URL: http://localhost/transneuron/api/v1/register 
   METHOD: POST 
   (PARAMETERS: name, email, description, location, mobile, password, password_confirmation)
-  ![ScreenShot](https://user-images.githubusercontent.com/23486819/139590474-7402bb16-d7dc-4b4d-aa13-613e84dc175b.png)
+![registerApi](https://user-images.githubusercontent.com/23486819/139590474-7402bb16-d7dc-4b4d-aa13-613e84dc175b.png)
   
 2. USER LOGIN API URL: http://localhost/transneuron/api/v1/login
   METHOD: POST
