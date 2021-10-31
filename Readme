@@ -3,8 +3,9 @@
 HOW TO RUN THIS PROJECT:
 - git clone https://github.com/yeshi74/Transneuron-api-task.git
 - composer install or composer update
-- configure .env file for the database (used mongoDB here. db name: transneuron)
-- import the mongoDB database in your db.
+- configure .env file for the database (used mongoDB here)
+- php artisan key:generate
+- php artisan migrate --seed (for migrating the tables and dummy records)
 
 THAT'S IT FOR SETTING UP THE PROJECT. NOW WE CAN CALL OUR APIs AS FOLLOWS:
 1. USER REGISTER API URL: http://localhost/transneuron/api/v1/register 
