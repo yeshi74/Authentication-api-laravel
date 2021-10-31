@@ -17,6 +17,7 @@ THAT'S IT FOR SETTING UP THE PROJECT. NOW WE CAN CALL OUR APIs AS FOLLOWS:
   METHOD: POST
   (AUTHENTICATION TOKEN WILL BE GENERATED)
   (PARAMETERS: email, password)
+  SEE SCREENSHOT: https://user-images.githubusercontent.com/23486819/139590704-8f1e2b80-faee-48ff-a2cc-b35a83c2ae75.png
   
 3. GET USERS LIST API URL: http://localhost/transneuron/api/v1/jobseeker/list
   METHOD: GET
