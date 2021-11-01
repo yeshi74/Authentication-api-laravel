@@ -3,7 +3,7 @@
 HOW TO RUN THIS PROJECT:
 - git clone https://github.com/yeshi74/Transneuron-api-task.git
 - composer install or composer update
-- configure .env file for the database (used mongoDB here)
+- configure .env file for the database (i have used mongoDB.)
 - php artisan key:generate
 - php artisan migrate --seed (for migrating the tables and dummy records)
 
