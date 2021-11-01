@@ -12,21 +12,21 @@ class GalleryTableSeeder extends Seeder
     public function run()
     {
         DB::table('gallery')->insert([
-            'user_id' => Str::random(10),
-            'title' => Str::random(10),
-            'image' => Str::random(10),
+            'user_id' => 1,
+            'title' => 'some title',
+            'image' => 'akbc.jpg',
         ], [
-            'user_id' => Str::random(10),
-            'title' => Str::random(10),
-            'image' => Str::random(10),
+            'user_id' => 2,
+            'title' => 'some title',
+            'image' => 'aobc.jpg',
         ], [
-            'user_id' => Str::random(10),
-            'title' => Str::random(10),
-            'image' => Str::random(10),
+            'user_id' => 3,
+            'title' => 'some title',
+            'image' => 'ahbc.jpg',
         ], [
-            'user_id' => Str::random(10),
-            'title' => Str::random(10),
-            'image' => Str::random(10),
+            'user_id' => 4,
+            'title' => 'some title',
+            'image' => 'aybc.jpg',
         ]);
     }
 }

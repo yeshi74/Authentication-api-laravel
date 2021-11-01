@@ -2,7 +2,6 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use Illuminate\Support\Facades\Hash;
 
 class UsersTableSeeder extends Seeder
 {
@@ -14,33 +13,33 @@ class UsersTableSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'name' => Str::random(10),
-            'mobile' => Str::random(10),
-            'location' => Str::random(10),
-            'description' => Str::random(10),
-            'email' => Str::random(10).'@gmail.com',
-            'password' => Hash::make('password'),
+            'name' => 'Yeshi',
+            'mobile' => '9980463638',
+            'location' => 'Bangalore',
+            'description' => 'Some text description',
+            'email' => 'thebluediamond96@gmail.com',
+            'password' => '$2a$12$1B6jlNNw0JFWbdqBQhzIie2NXDEr1oiqLL6PqnCCSRH9hZHI/j36a', //encrypted password is 123456
         ], [
-            'name' => Str::random(10),
-            'mobile' => Str::random(10),
-            'location' => Str::random(10),
-            'description' => Str::random(10),
-            'email' => Str::random(10).'@gmail.com',
-            'password' => Hash::make('password'),
+            'name' => 'Rahul',
+            'mobile' => '9980463631',
+            'location' => 'Delhi',
+            'description' => 'Some text description',
+            'email' => 'rahul@gmail.com',
+            'password' => '$2a$12$1B6jlNNw0JFWbdqBQhzIie2NXDEr1oiqLL6PqnCCSRH9hZHI/j36a', //encrypted password is 123456
         ], [
-            'name' => Str::random(10),
-            'mobile' => Str::random(10),
-            'location' => Str::random(10),
-            'description' => Str::random(10),
-            'email' => Str::random(10).'@gmail.com',
-            'password' => Hash::make('password'),
+            'name' => 'Poonam',
+            'mobile' => '9980463632',
+            'location' => 'Kolkata',
+            'description' => 'Some text description',
+            'email' => 'poonam@gmail.com',
+            'password' => '$2a$12$1B6jlNNw0JFWbdqBQhzIie2NXDEr1oiqLL6PqnCCSRH9hZHI/j36a', //encrypted password is 123456
         ], [
-            'name' => Str::random(10),
-            'mobile' => Str::random(10),
-            'location' => Str::random(10),
-            'description' => Str::random(10),
-            'email' => Str::random(10).'@gmail.com',
-            'password' => Hash::make('password'),
+            'name' => 'Rakesh',
+            'mobile' => '9980463636',
+            'location' => 'Dehradun',
+            'description' => 'Some text description',
+            'email' => 'rakesh@gmail.com',
+            'password' => '$2a$12$1B6jlNNw0JFWbdqBQhzIie2NXDEr1oiqLL6PqnCCSRH9hZHI/j36a', //encrypted password is 123456
         ]);
     }
 }

@@ -12,21 +12,21 @@ class TokensTableSeeder extends Seeder
     public function run()
     {
         DB::table('oauth_clients')->insert([
-            'name' => Str::random(10),
-            'docid' => Str::random(10),
-            'token' => Str::random(10),
+            'name' => 'asdflkjlfjljlnbkln',
+            'docid' => 'asdfsiweuoiuo',
+            'token' => 1234,
         ], [
-            'name' => Str::random(10),
-            'docid' => Str::random(10),
-            'token' => Str::random(10),
+            'name' => 'asdflkjlwjljlnbkln',
+            'docid' => 'asdfsiwuoiuo',
+            'token' => 1235,
         ], [
-            'name' => Str::random(10),
-            'docid' => Str::random(10),
-            'token' => Str::random(10),
+            'name' => 'asdflkjlsjljlnbkln',
+            'docid' => 'asdfsisuoiuo',
+            'token' => 1236,
         ], [
-            'name' => Str::random(10),
-            'docid' => Str::random(10),
-            'token' => Str::random(10),
+            'name' => 'asdflzkjljljlnbkln',
+            'docid' => 'asdafsiuoiuo',
+            'token' => 1237,
         ]);
     }
 }

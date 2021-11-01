@@ -12,7 +12,7 @@ class OauthPersonalAccessClientsTableSeeder extends Seeder
     public function run()
     {
         DB::table('oauth_clients')->insert([
-            'client_id' => Str::random(10),
+            'client_id' => 'asdflkjoierljdflnkln',
         ]);
     }
 }
